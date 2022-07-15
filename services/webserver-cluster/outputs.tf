@@ -5,7 +5,7 @@
 
 
 output "asg_name" {
-  value       = aws_autoscaling_group.example.name
+  value       = aws_autoscaling_group.web_server_asg.name
   description = "The name of the Auto Scaling Group"
 }
 output "clb_dns_name" {
